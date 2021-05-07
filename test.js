@@ -8,7 +8,10 @@ var encrypt =
     for(let i = 1; i<27; i++)
     {
      str = string.replace("h", "a");
+          if(i == 26)
+          {
+            alert(str);
+          }
      }
-    alert(str);
   }
 };
