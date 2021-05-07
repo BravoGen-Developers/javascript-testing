@@ -6,7 +6,7 @@ var encrypt =
   {
     for(let i = 0; i<27; i++)
     {
-     string = string.replace(letters[i], letters[i+1]);
+     string = string.replace(letters[i+1], letters[i+2]);
           if(i == 26)
           {
             alert(string);
