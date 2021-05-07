@@ -9,7 +9,7 @@ var encrypt =
      string = string.replace(letters[i+1], letters[i+2]);
           if(i == 26)
           {
-            write(string);
+            document.write(string);
           }
      }
   }
