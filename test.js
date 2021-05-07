@@ -10,4 +10,4 @@ var encrypt =
      //}
     alert("test");
   }
-}
+};
