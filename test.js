@@ -4,9 +4,9 @@ var encrypt =
 {
   simple: function(string) 
   {
-    for(let i = 1; i<27; i++)
+    for(let i = 0; i<27; i++)
     {
-     string = string.replace(letters[i-1], letters[i]);
+     string = string.replace(letters[i], letters[i+1]);
           if(i == 26)
           {
             alert(string);
