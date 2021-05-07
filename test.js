@@ -7,7 +7,7 @@ var encrypt =
     var str;
     for(let i = 1; i<27; i++)
     {
-     str = string.replace(letters[i-1], "a");
+     str = string.replace("h", "a");
      }
     alert(str);
   }
