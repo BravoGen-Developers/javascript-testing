@@ -3,11 +3,6 @@ var encrypt =
 {
   simple: function() 
   {
-    var newstr;
-    //for(let i = 1; i<27; i++)
-    //{
-     //newstr = string.replace(letters[i-1], "a");
-     //}
     alert("test");
   }
 };
