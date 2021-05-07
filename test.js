@@ -4,13 +4,12 @@ var encrypt =
 {
   simple: function(string) 
   {
-    var str;
     for(let i = 1; i<27; i++)
     {
-     str = string.replace(letters[i-1], "a");
+     string = string.replace(letters[i-1], "a");
           if(i == 26)
           {
-            alert(str);
+            alert(string);
           }
      }
   }
