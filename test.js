@@ -4,11 +4,11 @@ var encrypt =
 {
   simple: function(string) 
   {
-    var newstr;
+    var str;
     for(let i = 1; i<27; i++)
     {
-     newstr = string.replace(letters[i-1], "a");
+     str = string.replace(letters[i-1], "a");
      }
-    alert(newstr);
+    alert(str);
   }
 };
